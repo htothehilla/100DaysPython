@@ -1,7 +1,10 @@
 # Day 1: Installing Python
-**Completion Date:** 
+**Completion Date:** 22 May 2020
 
 **Learned:** 
+- Learned more about Pycharm and not to use notebooks 
+- https://www.jetbrains.com/pycharm/learning-center/ i love this page 
+
 
 # Day 2: Printing in Python
 **Completion Date:** 
