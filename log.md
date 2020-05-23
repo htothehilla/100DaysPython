@@ -11,7 +11,7 @@
 
 **Learned:** 
 - f-strings 
-- and this beautiful feature "\" didn't realise it was in python
+- and this beautiful feature "the downards dash" didn't realise it was in python
 
 # Day 3: Operators
 **Completion Date:** 
