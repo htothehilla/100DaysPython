@@ -1,4 +1,11 @@
 # Module 4
+
+At the moment original authors has decided to take a break from the course.
+
+What I will do is go through Data Science from Scratch exerices for the next days and log them here. 
+
+https://github.com/htothehilla/data-science-from-scratch
+
 * [Day 43: ](../Module4/Day43)
 * [Day 44: ](../Module4/Day44)
 * [Day 45: ](../Module4/Day45)
