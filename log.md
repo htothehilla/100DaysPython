@@ -14,9 +14,11 @@
 - and this beautiful feature "the downards dash" didn't realise it was in python
 
 # Day 3: Operators
-**Completion Date:** 
+**Completion Date:** 24 May 2020
 
 **Learned:** 
+-revised operators and learned about not and "\" this beauty
+- also now understand why people love ipython  
 
 # Day 4: Variables & Variable Types
 **Completion Date:** 
