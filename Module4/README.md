@@ -7,8 +7,20 @@ What I will do is go through Data Science from Scratch exerices for the next day
 https://github.com/htothehilla/data-science-from-scratch
 
 * [Day 43: ](../Module4/Day43)
+
+Visualising data
+https://github.com/joelgrus/data-science-from-scratch/blob/master/scratch/visualization.py
+
+
 * [Day 44: ](../Module4/Day44)
+
+Visualising data
+https://github.com/joelgrus/data-science-from-scratch/blob/master/scratch/visualization.py
+
 * [Day 45: ](../Module4/Day45)
+
+
+
 * [Day 46: ](../Module4/Day46)
 * [Day 47: ](../Module4/Day47)
 * [Day 48: ](../Module4/Day48)
