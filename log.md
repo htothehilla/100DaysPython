@@ -21,15 +21,19 @@
 - also now understand why people love ipython  
 
 # Day 4: Variables & Variable Types
-**Completion Date:** 
+**Completion Date:** 25 May 2020
 
 **Learned:** 
-
+- revised variable types 
+-- checking variables and changing them 
 # Day 5: String Formatting
-**Completion Date:** 
+**Completion Date:** 26 May 2020
 
 **Learned:** 
-
+- modifying strings with capitalisation and etc 
+- learned how to padd and change the positioning of results 
+- learned about justification 
+- revised f-strings 
 # Day 6: Lists
 **Completion Date:** 
 
