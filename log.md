@@ -35,10 +35,15 @@
 - learned about justification 
 - revised f-strings 
 # Day 6: Lists
-**Completion Date:** 
+**Completion Date:**  27 May 2020
 
 **Learned:** 
-
+- revised basic list knowledge and learned new things
+-- counting the amount occurrence of a letter in a string
+-- list.pop 
+sample = list(range(1,13))
+times_12 = [i * 12 for i in sample]
+print(times_12)
 # Day 7: Ranges
 **Completion Date:** 
 
