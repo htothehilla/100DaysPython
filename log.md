@@ -45,10 +45,10 @@ sample = list(range(1,13))
 times_12 = [i * 12 for i in sample]
 print(times_12)
 # Day 7: Ranges
-**Completion Date:** 
+**Completion Date:** 28 May 2020
 
 **Learned:** 
-
+- Stop, start and step
 # Day 8: Tuples
 **Completion Date:** 
 
