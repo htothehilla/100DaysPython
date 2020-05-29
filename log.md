@@ -50,9 +50,12 @@ print(times_12)
 **Learned:** 
 - Stop, start and step
 # Day 8: Tuples
-**Completion Date:** 
+**Completion Date:** 29 May 2020
 
 **Learned:** 
+- More about tuples
+- A tuple can be used to assign multiple variables at the same time
+- A tuple can be deleted through the del command. This can be used to delete an entire tuple, but it cannot be used to remove an item in a tuple.
 
 # Day 9: Index and Slicing
 **Completion Date:** 
