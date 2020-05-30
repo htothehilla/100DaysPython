@@ -58,10 +58,12 @@ print(times_12)
 - A tuple can be deleted through the del command. This can be used to delete an entire tuple, but it cannot be used to remove an item in a tuple.
 
 # Day 9: Index and Slicing
-**Completion Date:** 
+**Completion Date:** 30th May 2020
 
 **Learned:** 
-
+- Slicing in particular start, step, stop
+- Intresting to find out it can be applied directly to string and be used to create a new variable 
+- Also learning more about git via pycharm
 # Day 10: If/Else
 **Completion Date:** 
 
