@@ -65,10 +65,12 @@ print(times_12)
 - Intresting to find out it can be applied directly to string and be used to create a new variable 
 - Also learning more about git via pycharm
 # Day 10: If/Else
-**Completion Date:** 
+**Completion Date:** 31st May 2020
 
 **Learned:** 
-
+- pushed my first comit via pycharm to git today xoxo
+- #For simple cases, it's possible to use a ternary operator to complete a conditional operation in a single line
+- #there can only be a max of one if and else statement each.
 # Day 11: Augmented Assignments
 **Completion Date:** 
 
