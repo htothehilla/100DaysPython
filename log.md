@@ -83,10 +83,12 @@ print(times_12)
 - ^= : Exclusive Or (XOR)
 - |= : Inclusive Or (OR)
 # Day 12: For/While Loops
-**Completion Date:** 
+**Completion Date:** 2 June 2020
 
 **Learned:** 
-
+- covered for loops 
+- discovered while loops
+- intresting to see how you can put in steps 
 # Day 13: Continue/Break
 **Completion Date:** 
 
