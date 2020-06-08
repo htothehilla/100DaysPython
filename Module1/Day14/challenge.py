@@ -1,3 +1,5 @@
+from typing import List, Any, Union, Tuple
+
 content = ["Wayne is the toughest guy in Letterkenny.", list(range(0,101,10)), ("Wayne", "Dan", "Katy", "Daryl"), 10.4]
 print(content)
 
@@ -5,12 +7,12 @@ for word in content:
     if type(word) == tuple:
         print()
     elif type(word) == list and int:
-        word = int(word) - 10
-        word = float(word) - 20
+        content = int(word) - 10
+        content = float(word) - 20
         print()
     elif type(word) != str or int or tuple:
         print("stop")
-    else type(word) ==
+    elif type(word) is str:
         content = content + "Allegedly"
         print()
 
