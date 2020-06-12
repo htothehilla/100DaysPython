@@ -3,13 +3,16 @@ from typing import List, Any, Union, Tuple
 content = ["Wayne is the toughest guy in Letterkenny.", list(range(0,101,10)), ("Wayne", "Dan", "Katy", "Daryl"), 10.4]
 print(content)
 
-for word in content:
-    if type(word) == tuple:
-        print()
-    elif type(word) == list and int:
-        content = int(word) - 10
-        content = float(word) - 20
-        print()
+for word in range(0, len(content)):
+    if type(content[word]) is tuple:
+        print("{} is a {}".format(content[i], type(content[word]))))
+        continue
+    elif type(content [word]) is list:
+        content = int(content[word]) - 10
+        content = float(content[word]) - 20
+        print("{} is a {}".format(content[i], type(content[word]))))
+        continue
+    elif type(content[word]) is 
     elif type(word) != str or int or tuple:
         print("stop")
     elif type(word) is str:
