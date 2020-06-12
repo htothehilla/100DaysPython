@@ -101,24 +101,26 @@ print(times_12)
 
 # Day 15: Dictionaries
 **Completion Date:** 
-
+12th June
 **Learned:** 
-
+- set default
+- calling keys and values
 # Day 16: Sets
 **Completion Date:** 
-
+12th June
 **Learned:** 
-
+- Difference between sets and list
+- Value of sets
 # Day 17: User Input
 **Completion Date:** 
-
+12th June
 **Learned:** 
-
+- N/A
 # Day 18: Packages
 **Completion Date:** 
-
+12th June
 **Learned:** 
-
+- Intro to OS, datetime, webbrowser
 # Day 19: File Input/Output
 **Completion Date:** 
 
