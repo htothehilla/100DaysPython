@@ -1,0 +1,1 @@
+#I have passed this one as I know how to use input
