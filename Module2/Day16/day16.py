@@ -62,3 +62,4 @@ print(suspects)
 print(nums)
 nums.clear()
 print(nums)
+
