@@ -127,6 +127,7 @@ print(times_12)
 **Learned:** 
 - Learned about writing, reading renaming and appending new files
 - Importance of closing files, and using readline to save memory
+- Beauty of seek (for read) to select where you want to read from
 # Day 20: Functions
 **Completion Date:** 
 
