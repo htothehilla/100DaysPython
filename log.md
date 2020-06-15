@@ -123,9 +123,10 @@ print(times_12)
 - Intro to OS, datetime, webbrowser
 # Day 19: File Input/Output
 **Completion Date:** 
-
+15th June 
 **Learned:** 
-
+- Learned about writing, reading renaming and appending new files
+- Importance of closing files, and using readline to save memory
 # Day 20: Functions
 **Completion Date:** 
 
