@@ -128,6 +128,7 @@ print(times_12)
 - Learned about writing, reading renaming and appending new files
 - Importance of closing files, and using readline to save memory
 - Beauty of seek (for read) to select where you want to read from
+- I also understand why you repeat the line of code about the amount you want to read to prevent a ifinte loop
 # Day 20: Functions
 **Completion Date:** 
 
