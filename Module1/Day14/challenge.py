@@ -10,7 +10,7 @@ for word in range(0, len(content)):
     elif type(content [word]) is list:
         content = int(content[word]) - 10
         content = float(content[word]) - 20
-        print("{} is a {}".format(content[i], type(content[word]))))
+        print("{} is a {}".format(content[i], type(content[word])))
         continue
     elif type(content[word]) is 
     elif type(word) != str or int or tuple:
