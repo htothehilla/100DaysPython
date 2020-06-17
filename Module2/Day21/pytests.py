@@ -4,41 +4,37 @@
 # The testing code is separated from the rest of the program in a separate file.
 # This testing file should start with test_ or end with _test.py.
 
-
-from Module2.Day21.module2_day21_pytest import BasicCalc
-
+from module2_day21_pytest import BasicCalc
 
 def test_add():
     calculator = BasicCalc()
     result = calculator.add(2, 2)
     assert result == 4
 
-
 def test_subtract():
     calculator = BasicCalc()
     result = calculator.subtract(2, 2)
     assert result == 0
-
 
 def test_multiply():
     calculator = BasicCalc()
     result = calculator.multiply(2, 2)
     assert result == 4
 
-
 def test_divide():
     calculator = BasicCalc()
-    result = calculator.divide(2, 2)
+    result = calculator.divide(3, 2)
     assert result == 1
-
 
 def test_zero_div():
     calculator = BasicCalc()
     result = calculator.divide(5, 0)
     assert result == "ZeroDivisionError"
 
-
 def test_will_fail():
     calculator = BasicCalc()
     result = calculator.add(2, 2)
     assert result == 5
+
+# thank god for stackoverlow
+# Pating "pytest --show-capture" in terminal allowed me to see which tests would fail
