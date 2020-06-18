@@ -44,11 +44,23 @@ def test_will_fail():
     assert result == 5
 
 #test will fail (useful for unfinished code)
+# eventuaully worked in terminal with the full path
 
 def test_man_fail():
     calculator = BasicCalc()
     with pytest.fail("I made this one fail."):
         calculator.add(2, 2)
+
+
+#raise can be useful when validating features
+
+def test_str():
+    calculator = BasicCalc()
+    with pytest.raises(TypeError):
+        calculator.divide("four", 2)
+
+
+
 
 # thank god for stackoverlow
 # Pating "pytest --show-capture" in terminal allowed me to see which tests would fail
