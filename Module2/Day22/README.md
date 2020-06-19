@@ -1,4 +1,4 @@
-# Day 22: Recursive Functions
+Day 22: Recursive Functions
 **Instructions:** 
 1. Open a new python file.
 2. Recursive functions are ones that call on themselves to produce additional results. Most recursive problems can be solved using loops, but it is important to understand the functionality. Before the invention of loops in programming languages, recursion was the best way to solve problems like the Fibonacci Sequence or factorials programmatically. A factorial is the product of all numbers from 1 to N (e.g. 3! = 3 * 2 * 1). This can also be written as 3 * 2!. The factorial of 0 or 1 returns 1, so this can be explicitly called in the function. The recursion function determines the highest numerical value in each iteration and adds it to the list of items to multiply. Then it executes the function again with one less the previous number until 1 or 0 is reached. Similarly, the same results can be obtained by using a `for` loop. The loop requires more lines of code, but it is often more easily readable than recursive functions.

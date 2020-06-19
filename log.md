@@ -131,14 +131,17 @@ print(times_12)
 - I also understand why you repeat the line of code about the amount you want to read to prevent a ifinte loop
 # Day 20: Functions
 **Completion Date:** 
-
+16th June
 **Learned:** 
-
+Mainly revision 
 # Day 21: Pytest
 **Completion Date:** 
-
+17th/18th June
 **Learned:** 
-
+- the value of patience 
+- working in terminal and pycharm IDE to test units vis pytest
+- how syntax has be set up for the pytest api to test the function
+- need to imporve on raise aspect of pytest
 # Day 22: Recursive Functions
 **Completion Date:** 
 
