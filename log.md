@@ -144,9 +144,10 @@ Mainly revision
 - need to imporve on raise aspect of pytest
 # Day 22: Recursive Functions
 **Completion Date:** 
-
+19th June 
 **Learned:** 
-
+- benefits of a recursive function over loops
+- hard limits and cache for memorisation 
 # Day 23: Lambdas
 **Completion Date:** 
 
