@@ -150,9 +150,10 @@ Mainly revision
 - hard limits and cache for memorisation 
 # Day 23: Lambdas
 **Completion Date:** 
-
+22nd June 
 **Learned:** 
-
+- Lambda calcus video 
+- make coding shorter 
 # Day 24: Object-Oriented Programming
 **Completion Date:** 
 
