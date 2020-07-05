@@ -178,7 +178,7 @@ Mainly revision
 **Completion Date:** 
 
 **Learned:** 
-
+- I'm going to cover this another way
 # Day 28: Module 2 Challenge
 **Completion Date:** 
 
