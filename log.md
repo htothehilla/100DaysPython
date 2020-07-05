@@ -156,9 +156,10 @@ Mainly revision
 - make coding shorter 
 # Day 24: Object-Oriented Programming
 **Completion Date:** 
-
+5th July (i was stuck for a bit)
 **Learned:** 
-
+- Decorators help to decorate functions, so they can be reused ( I will need to go over)
+- Classes (Unlike dictionaries and lists, classes can contain additional functions that are applied to the inputs)
 # Day 25: List Comprehensions
 **Completion Date:** 
 
