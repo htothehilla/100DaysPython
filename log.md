@@ -169,9 +169,11 @@ Mainly revision
 
 # Day 26: Map, Filter, and Zip
 **Completion Date:** 
-
+5th July
 **Learned:** 
-
+- covered how map reduces code to a single line (revise this)
+- filter true objects 
+- zip is my favourite 
 # Day 27: Logging
 **Completion Date:** 
 
