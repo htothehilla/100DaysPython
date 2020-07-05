@@ -162,8 +162,10 @@ Mainly revision
 - Classes (Unlike dictionaries and lists, classes can contain additional functions that are applied to the inputs)
 # Day 25: List Comprehensions
 **Completion Date:** 
-
+5th July
 **Learned:** 
+- Similar to lambda functions, list comprehensions are a method of condensing python code into a single line.
+- How you can use listcomp with tuples and strings
 
 # Day 26: Map, Filter, and Zip
 **Completion Date:** 
