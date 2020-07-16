@@ -180,6 +180,7 @@ Mainly revision
 **Learned:** 
 - I'm going to cover this another way
 - I understand ho it can provide value but when I have attempted to go through the code it creates a lot of errors :(
+- Guess what the log was in another folder 
 # Day 28: Module 2 Challenge
 **Completion Date:** 
 
