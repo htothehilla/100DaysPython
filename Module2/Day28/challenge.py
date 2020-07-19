@@ -16,13 +16,13 @@ logger = logging.getLogger()
 word = input("provide a word that does not have any duplicate letters and no numbers or special characters")
 
 def test(word):
-    if word.islower() and not word.isnumeric():
+    if word.islower() and not word.isnumeric() :
         return
     else:
         print("{} is not an acceptable entry, please provide a lowercase message, "
           "with no number, no space or special charcters.".format(word))
-        logging.error("didn't work")
-        exit(0)
+    logging.error("didn't work")
+    exit(0)
 test(word)
 
 choice = input("Would you like to encrypt or decrypt your message ?, answer [encrypt/decrypt]")
