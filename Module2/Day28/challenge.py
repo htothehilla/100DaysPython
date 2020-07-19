@@ -3,7 +3,7 @@ import random
 import logging
 
 # The user provides a word that does not have any duplicate letters and no numbers or special characters.
-word = input("what word would you like to encrpyt")
+word = input("provide a word that does not have any duplicate letters and no numbers or special characters")
 
 def test():
     if word.islower():
@@ -43,7 +43,6 @@ def decrypt(cipher, key, alphabet):
 if choice == 'decrypt':
     print(word)
     print(decrypt(cipher, key, alphabet))
-
 
 
 # The user then provides the instruction to either encrypt or decrypt the message.
