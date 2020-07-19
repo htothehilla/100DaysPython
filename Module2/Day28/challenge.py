@@ -41,18 +41,19 @@ def encrypt(word, key, alphabet):
 
 cipher = encrypt(word, key, alphabet)
 
-if choice == 'encrypt':
-    print(f"Your encrypted word is {cipher}")
-    logger.info('working')
-
-
 def decrypt(cipher, key, alphabet):
     keyIndices = [key.index(k) for k in cipher]
     return ''.join(alphabet[keyIndex] for keyIndex in keyIndices)
 
-if choice == 'decrypt':
-    print(f"Your encrypted word is {decrypt(cipher, key, alphabet)}")
+if choice == 'encrypt':
+    print(f"Your encrypted word is {cipher}")
     logger.info('working')
+elif choice == 'decrypt':
+    print(f"Your decrypted word is {decrypt(cipher, key, alphabet)}")
+    logger.info('working')
+else:
+    print(f" the word {choice} is either mispelled or you have not put encrypt or decrypt")
+    logger.info("wrong word")
 
 
 
