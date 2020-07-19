@@ -183,8 +183,11 @@ Mainly revision
 - Guess what the log was in another folder 
 # Day 28: Module 2 Challenge
 **Completion Date:** 
-
+- 19th July
 **Learned:** 
+- Learned more about logging and how to use stackoverlofw for shortcurs
+- want to make my logging more robust
+- practiced more on if and else statements 
 
 # Day 29: File Manipulations
 **Completion Date:** 
