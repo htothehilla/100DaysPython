@@ -17,8 +17,9 @@ def test():
           "with no number, no space or special charcters.".format(word))
 test()
 
-alphabet = 'abcdefghijklmnopqrstuvwxyz.,! ' # Note the space at the end, which I kept missing.
-# You could generate the key below using makeKey (i.e. key=makeKey(alphabet))
+choice = input("Would you like to encrypt or decrypt your message ?, answer [encrypt/decrypt]")
+
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
 key = 'nuuiyvxqflfbcjrodhkaewhspzgm'
 # v! zmhvxdmxdmo!nll mikbg
 def makeKey(alphabet):
@@ -32,15 +33,17 @@ def encrypt(word, key, alphabet):
 
 cipher = encrypt(word, key, alphabet)
 
-print(word)
-print(cipher)
+if choice == 'encrypt':
+    print(f"Your encrypted word is {cipher}")
 
 def decrypt(cipher, key, alphabet):
     keyIndices = [key.index(k) for k in cipher]
     return ''.join(alphabet[keyIndex] for keyIndex in keyIndices)
+
+if choice == 'decrypt':
+    print(word)
     print(decrypt(cipher, key, alphabet))
 
-print(decrypt(cipher, key, alphabet))
 
 
 # The user then provides the instruction to either encrypt or decrypt the message.
