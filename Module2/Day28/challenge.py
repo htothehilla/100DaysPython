@@ -17,7 +17,6 @@ word = input("provide a word that does not have any duplicate letters and no num
 
 def test(word):
     if word.islower() and not word.isnumeric():
-        print("next question")
         return
     else:
         print("{} is not an acceptable entry, please provide a lowercase message, "
@@ -27,7 +26,6 @@ def test(word):
 test(word)
 
 choice = input("Would you like to encrypt or decrypt your message ?, answer [encrypt/decrypt]")
-
 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 key = 'nuuiyvxqflfbcjrodhkaewhspzgm'
@@ -47,13 +45,16 @@ if choice == 'encrypt':
     print(f"Your encrypted word is {cipher}")
     logger.info('working')
 
+
 def decrypt(cipher, key, alphabet):
     keyIndices = [key.index(k) for k in cipher]
     return ''.join(alphabet[keyIndex] for keyIndex in keyIndices)
 
 if choice == 'decrypt':
-    print(word)
-    print(decrypt(cipher, key, alphabet))
+    print(f"Your encrypted word is {decrypt(cipher, key, alphabet)}")
+    logger.info('working')
+
+
 
 
 # The user then provides the instruction to either encrypt or decrypt the message.
