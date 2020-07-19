@@ -2,6 +2,8 @@
 import random
 import logging
 import os
+import sys
+from sys import exit
 
 log_formatter = "%(levelname)s: %(asctime)s - %(message)s"
 logging.basicConfig(filename="module2_day28_logging.log",
@@ -13,23 +15,23 @@ logger = logging.getLogger()
 # The user provides a word that does not have any duplicate letters and no numbers or special characters.
 word = input("provide a word that does not have any duplicate letters and no numbers or special characters")
 
-def test():
+def test(word):
     if word.islower() and not word.isnumeric():
         print("next question")
-    elif word.isspace():
-        print('no')
+        return
     else:
         print("{} is not an acceptable entry, please provide a lowercase message, "
           "with no number, no space or special charcters.".format(word))
         logging.error("didn't work")
-test()
-
+        exit(0)
+test(word)
 
 choice = input("Would you like to encrypt or decrypt your message ?, answer [encrypt/decrypt]")
 
+
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 key = 'nuuiyvxqflfbcjrodhkaewhspzgm'
-# v! zmhvxdmxdmo!nll mikbg
+
 def makeKey(alphabet):
     alphabet = list(alphabet)
     random.shuffle(alphabet)
