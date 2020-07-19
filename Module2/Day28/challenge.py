@@ -1,6 +1,14 @@
 #Create a program to encrypt and decrypt messages using a substitution cipher.
 import random
 import logging
+import os
+
+log_formatter = "%(levelname)s: %(asctime)s - %(message)s"
+logging.basicConfig(filename="module2_day28_logging.log",
+                    level=logging.DEBUG,
+                    format=log_formatter,
+                    filemode="w")
+logger = logging.getLogger()
 
 # The user provides a word that does not have any duplicate letters and no numbers or special characters.
 word = input("provide a word that does not have any duplicate letters and no numbers or special characters")
@@ -8,10 +16,14 @@ word = input("provide a word that does not have any duplicate letters and no num
 def test():
     if word.islower() and not word.isnumeric():
         print("next question")
+    elif word.isspace():
+        print('no')
     else:
         print("{} is not an acceptable entry, please provide a lowercase message, "
           "with no number, no space or special charcters.".format(word))
+        logging.error("didn't work")
 test()
+
 
 choice = input("Would you like to encrypt or decrypt your message ?, answer [encrypt/decrypt]")
 
@@ -31,6 +43,7 @@ cipher = encrypt(word, key, alphabet)
 
 if choice == 'encrypt':
     print(f"Your encrypted word is {cipher}")
+    logger.info('working')
 
 def decrypt(cipher, key, alphabet):
     keyIndices = [key.index(k) for k in cipher]
@@ -50,5 +63,5 @@ if choice == 'decrypt':
 
 
 
-# os.chdir(".\\Module2\\Day28")
+
 
