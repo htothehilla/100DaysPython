@@ -6,7 +6,7 @@ import logging
 word = input("provide a word that does not have any duplicate letters and no numbers or special characters")
 
 def test():
-    if word.islower() and word.isspace() and word.isnumeric():
+    if word.islower() and not word.isnumeric():
         print("next question")
     else:
         print("{} is not an acceptable entry, please provide a lowercase message, "
