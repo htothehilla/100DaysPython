@@ -1,9 +1,8 @@
 choice = input("Would you like to encrypt or decrypt your message ?, answer [encrypt/decrypt]")
 if choice == "encrypt":
     tocreate
-if choice == "decrpyt":
+elif choice == "decrpyt":
     tocreate
-
 
 #removes duplicates in a messgae
 def remove_repeats(string):

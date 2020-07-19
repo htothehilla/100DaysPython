@@ -1,9 +1,9 @@
 #Create a program to encrypt and decrypt messages using a substitution cipher.
-
+import random
 import logging
 
 # The user provides a word that does not have any duplicate letters and no numbers or special characters.
-word = input("Would you like to encrypt or decrypt your message ?, answer [encrypt/decrypt]")
+word = input("what word would you like to encrpyt")
 
 def test():
     if word.islower():
@@ -17,9 +17,31 @@ def test():
           "with no number, no space or special charcters.".format(word))
 test()
 
+class forencypt:
+    def __init__(self, alphabet, word,key):
+        alphabet = 'abcdefghijklmnopqrstuvwxyz.,! ' # Note the space at the end, which I kept missing.
+# You could generate the key below using makeKey (i.e. key=makeKey(alphabet))
+        key = 'nu.t!iyvxqfl,bcjrodhkaew spzgm'
+# v! zmhvxdmxdmo!nll mikbg
+    def makeKey(alphabet):
+        alphabet = list(alphabet)
+        random.shuffle(alphabet)
+        return ''.join(alphabet)
+    def encrypt(word, key, alphabet):
+        keyIndices = [alphabet.index(k.lower()) for k in word]
+        return ''.join(key[keyIndex] for keyIndex in keyIndices)
+        cipher = encrypt(word, key, alphabet)
 
+print(word)
+print(cipher)
 
+class fordecrypt:
+    def __init__(self, alphabet, word,key):
 
+        def decrypt(cipher, key, alphabet):
+            keyIndices = [key.index(k) for k in cipher]
+            return ''.join(alphabet[keyIndex] for keyIndex in keyIndices)
+            print(decrypt(cipher, key, alphabet))
 
 
 
