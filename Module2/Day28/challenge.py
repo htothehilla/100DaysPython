@@ -17,33 +17,30 @@ def test():
           "with no number, no space or special charcters.".format(word))
 test()
 
-class forencypt:
-    def __init__(self, alphabet, word,key):
-        alphabet = 'abcdefghijklmnopqrstuvwxyz.,! ' # Note the space at the end, which I kept missing.
+alphabet = 'abcdefghijklmnopqrstuvwxyz.,! ' # Note the space at the end, which I kept missing.
 # You could generate the key below using makeKey (i.e. key=makeKey(alphabet))
-        key = 'nu.t!iyvxqfl,bcjrodhkaew spzgm'
+key = 'nuuiyvxqflfbcjrodhkaewhspzgm'
 # v! zmhvxdmxdmo!nll mikbg
-    def makeKey(alphabet):
-        alphabet = list(alphabet)
-        random.shuffle(alphabet)
-        return ''.join(alphabet)
-    def encrypt(word, key, alphabet):
-        keyIndices = [alphabet.index(k.lower()) for k in word]
-        return ''.join(key[keyIndex] for keyIndex in keyIndices)
-        cipher = encrypt(word, key, alphabet)
+def makeKey(alphabet):
+    alphabet = list(alphabet)
+    random.shuffle(alphabet)
+    return ''.join(alphabet)
+
+def encrypt(word, key, alphabet):
+    keyIndices = [alphabet.index(k.lower()) for k in word]
+    return ''.join(key[keyIndex] for keyIndex in keyIndices)
+
+cipher = encrypt(word, key, alphabet)
 
 print(word)
 print(cipher)
 
-class fordecrypt:
-    def __init__(self, alphabet, word,key):
+def decrypt(cipher, key, alphabet):
+    keyIndices = [key.index(k) for k in cipher]
+    return ''.join(alphabet[keyIndex] for keyIndex in keyIndices)
+    print(decrypt(cipher, key, alphabet))
 
-        def decrypt(cipher, key, alphabet):
-            keyIndices = [key.index(k) for k in cipher]
-            return ''.join(alphabet[keyIndex] for keyIndex in keyIndices)
-            print(decrypt(cipher, key, alphabet))
-
-
+print(decrypt(cipher, key, alphabet))
 
 
 # The user then provides the instruction to either encrypt or decrypt the message.
