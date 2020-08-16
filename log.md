@@ -201,9 +201,9 @@ Mainly revision
 - Also learned about fie name structure 
 # Day 30: File Search
 **Completion Date:** 
-
+16th August
 **Learned:** 
-
+- I liike the whole idea of a magnetic needle in haystack and how it uses lopps and memory and reading to find what you are looking for regardless of the file type.
 # Day 31: CSV Manipulations
 **Completion Date:** 
 
