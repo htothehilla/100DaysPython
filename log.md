@@ -191,9 +191,14 @@ Mainly revision
 
 # Day 29: File Manipulations
 **Completion Date:** 
-
+16th August 
 **Learned:** 
-
+- https://www.youtube.com/watch?v=x5c2g3mSC2I
+- https://www.youtube.com/watch?v=BteBtGhOC5s
+- At first I had so many errors because the file was next existing. I had inputted the code incorrectly.
+- I checked if the directy I wanted was real and then was able to correct my code.
+- z.fill is used for ordering tracks
+- Also learned about fie name structure 
 # Day 30: File Search
 **Completion Date:** 
 
