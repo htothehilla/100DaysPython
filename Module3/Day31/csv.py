@@ -64,4 +64,18 @@ try:
 finally:
     mash.close()
 
+#read in files - In order to read csv files with different delimiters, the dialect option must be implemented.
+csv.register_dialect("pipe-delim", delimiter="|", lineterminator="\n")
 
+#data can't not be removed from a current file as data is trucnated with rt
+# Additionally, the at option does not remove existing records and would only
+# append additional items. Therefore, a secondary file is required to write the cleaned output. However, the at option could be leveraged along with the rt option on the same
+# file to analyze if a record exists before adding it.
+
+with open("mash_pipe.csv", "rt") as mash_in, open("mash.csv", "wt") as mash_out:
+    writer = csv.writer(mash_out, lineterminator="\n")
+    for row in csv.reader(mash_in, dialect="pipe-delim"):
+        if row[0] == "This includes a, comma":
+            continue
+        else:
+            writer.writerow(row)
